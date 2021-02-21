@@ -1,8 +1,6 @@
 def colour_code_map(dico2, list_position_earth):
     '''
-    This function adds a colour code to the background of one game square to 
-    tell the player if the ant, which is on top of a piece of earth, 
-    has the abolity to lift the piece of earth or not.
+    This function 
 
     Parameters
     __________
@@ -19,3 +17,40 @@ def colour_code_map(dico2, list_position_earth):
     '''
 
     return allowed_or_not
+
+def ant_level(list_2):
+    """
+    Parameters:
+    -----------
+    list_2 : list of cases around the spawn point where are motte or not (list)
+    :return:
+    full_cases : number of cases with a motte (int)
+    ant_spawn_level : level of the new ant (int)
+    Version :
+    Specification : Julien Emegenbirn (v1. 19/02/2021)
+    ---------
+    """
+
+def motte_de_terre(dico_2):
+    """
+    Parameters :
+    ------------
+    dico_2 : The third elements of all the list in the dictionary (bool)
+    :return:
+    ant_charge : If the ant as already a motte (bool)
+    Version :
+    ---------
+    Specification : Julien Emegenbirn (v1. 19/02/2021)
+    """
+
+def ant_spawn(dico_1) :
+    """
+    Parameters :
+    ------------
+    dico_1 : the third element of the list for every key (int)
+    :return:
+    new_ant : add a new list in the dico_2 (list)
+    Version :
+    ---------
+    Specification : Julien Emegenbirn (v1. 19/02/2021)
+    """
