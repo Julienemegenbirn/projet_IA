@@ -1,6 +1,8 @@
 def colour_code_map(dico2, list_position_earth):
     '''
-    This function 
+    This function adds a colour code to the background of one game square to 
+    tell the player if the ant, which is on top of a piece of earth, 
+    has the abolity to lift the piece of earth or not.
 
     Parameters
     __________
